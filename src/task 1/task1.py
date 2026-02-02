@@ -33,7 +33,7 @@ class VideoPlayer:
             cv.imshow('frame', frame)
 
             # to leave early press q
-            if cv.waitkey(1)==ord('q'):
+            if cv.waitKey(1)==ord('q'):
                 break
 
         self.cap.release()
